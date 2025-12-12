@@ -10,5 +10,7 @@ namespace firstprogram.Data
 
         }
         public DbSet<Register> Registers { get; set; }
+
+        public DbSet<Feedback> Feedbacks { get; set; }
     }
 }

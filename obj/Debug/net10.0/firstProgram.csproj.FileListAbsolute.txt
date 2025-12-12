@@ -226,10 +226,10 @@ C:\Asp.net_task\firstProgram\obj\Debug\net10.0\staticwebassets.build.json.cache
 C:\Asp.net_task\firstProgram\obj\Debug\net10.0\staticwebassets.development.json
 C:\Asp.net_task\firstProgram\obj\Debug\net10.0\staticwebassets.build.endpoints.json
 C:\Asp.net_task\firstProgram\obj\Debug\net10.0\swae.build.ex.cache
-C:\Asp.net_task\firstProgram\obj\Debug\net10.0\staticwebassets.upToDateCheck.txt
 C:\Asp.net_task\firstProgram\obj\Debug\net10.0\firstPro.BF4E4800.Up2Date
 C:\Asp.net_task\firstProgram\obj\Debug\net10.0\firstProgram.dll
 C:\Asp.net_task\firstProgram\obj\Debug\net10.0\refint\firstProgram.dll
 C:\Asp.net_task\firstProgram\obj\Debug\net10.0\firstProgram.pdb
 C:\Asp.net_task\firstProgram\obj\Debug\net10.0\firstProgram.genruntimeconfig.cache
 C:\Asp.net_task\firstProgram\obj\Debug\net10.0\ref\firstProgram.dll
+C:\Asp.net_task\firstProgram\obj\Debug\net10.0\staticwebassets.upToDateCheck.txt

@@ -1,25 +1,62 @@
 ﻿<!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>@ViewData["Title"] - FirstProgram</title>
+
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
     <link rel="stylesheet" href="~/css/site.css" />
 </head>
 <body>
-    <header>
-        <h1>My Custom Header</h1>
-        <nav>
-            <a href="/Home/Index">Home</a>
-            <a href="/Register/Register">Register</a>
-            <a href="/Home/Privacy">GO to</a>
-        </nav>
+    <!-- Header -->
+    <header class="bg-primary text-white py-3 mb-4 shadow-sm">
+        <div class="container d-flex justify-content-between align-items-center">
+            <h1 class="h3 mb-0">FirstProgram</h1>
+            <nav>
+                <a href="/Home/Index" class="text-white mx-2 text-decoration-none">Home</a>
+                <a href="/Register/Register" class="text-white mx-2 text-decoration-none">Register</a>
+                <a href="/Home/Privacy" class="text-white mx-2 text-decoration-none">Go To</a>
+                <a href="/Feedback/Create" class="text-white mx-2 text-decoration-none">Feedback</a>
+            </nav>
+        </div>
     </header>
 
-    <div class="container">
+    <!-- Main Content -->
+    <main class="container mb-5">
         @RenderBody()
-    </div>
+    </main>
 
-    <footer>
-        <p>© 2025 FirstProgram</p>
+    <!-- Footer -->
+    <footer class="bg-dark text-white py-3 mt-auto">
+        <div class="container text-center">
+            <p class="mb-0">© 2025 FirstProgram. All rights reserved.</p>
+        </div>
     </footer>
+
+    <!-- Bootstrap 5 JS Bundle -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+    <style>
+        body {
+            background-color: #f8f9fa;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        header h1 {
+            font-weight: 600;
+        }
+
+        footer p {
+            font-size: 0.9rem;
+        }
+    </style>
 </body>
 </html>

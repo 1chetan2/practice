@@ -1,0 +1,19 @@
+﻿@model firstprogram.Models.Feedback
+
+@{
+    ViewData["Title"] = "Feedback";
+}
+
+
+<h2>Feedback Form</h2>
+
+<form asp-action="Create" method="post">
+
+    <label>Name</label>
+    <input asp-for="Name" class="form-control" />
+
+    <label>Review</label>
+    <input asp-for="Review" class="form-control" />
+
+    <button type="submit" class="btn btn-primary mt-3">Submit</button>
+</form>
