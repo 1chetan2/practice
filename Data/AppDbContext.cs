@@ -14,3 +14,4 @@ namespace firstprogram.Data
         public DbSet<Feedback> Feedbacks { get; set; }
     }
 }
+
