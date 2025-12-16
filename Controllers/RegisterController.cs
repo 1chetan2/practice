@@ -18,6 +18,7 @@ namespace firstprogram.Controllers
         // GET: Register
         public IActionResult Register()
         {
+            ViewData["Title"] = "Welcome to ASP.NET Core";
             return View();
         }
 
@@ -68,11 +69,26 @@ namespace firstprogram.Controllers
             }
         }
 
-        // Logout
-        //public IActionResult Logout()
-        //{
-        //    HttpContext.Session.Clear();
-        //    return RedirectToAction("Login");
-        //}
+       
     }
 }
+
+
+/*Sir, I have understood all the ASP.NET commands till now.
+I have learned:
+
+How many types of projects can be created in ASP.NET
+
+Project types and folder structure
+
+Git commands and how to push and pull projects to/from the server
+
+MVC architecture and its directory structure
+
+The HTTP request–response cycle
+
+Database connectivity with SSMS
+
+How to create Login and Registration
+
+How to process data and insert records into the database*/
