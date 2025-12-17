@@ -1,4 +1,5 @@
 ﻿using firstprogram.Models;
+using firstProgram.Models;
 using Microsoft.EntityFrameworkCore;
 
 namespace firstprogram.Data
@@ -12,6 +13,7 @@ namespace firstprogram.Data
         public DbSet<Register> Registers { get; set; }
 
         public DbSet<Feedback> Feedbacks { get; set; }
+        public DbSet<Student> Students { get; set; }
     }
 }
 
