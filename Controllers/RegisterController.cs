@@ -3,6 +3,7 @@ using firstprogram.Data;
 using firstprogram.Models;
 using Microsoft.AspNetCore.Http;
 using System.Linq;
+using System.Data.SqlTypes;
 
 namespace firstprogram.Controllers
 {
@@ -57,10 +58,10 @@ namespace firstprogram.Controllers
 
             if (user != null)
             {
-                HttpContext.Session.SetString("UserEmail", user.Email);
+                HttpContext.Session.SetString("UserEmail", user.Email);  //session creation and store data
                 HttpContext.Session.SetString("UserName", user.FullName);
 
-                return RedirectToAction("Index", "Home");
+                return RedirectToAction("Index", "Student");
             }
             else
             {
@@ -70,25 +71,8 @@ namespace firstprogram.Controllers
         }
 
        
-    }
+    }                               
 }
 
 
-/*Sir, I have understood all the ASP.NET commands till now.
-I have learned:
 
-How many types of projects can be created in ASP.NET
-
-Project types and folder structure
-
-Git commands and how to push and pull projects to/from the server
-
-MVC architecture and its directory structure
-
-The HTTP request–response cycle
-
-Database connectivity with SSMS
-
-How to create Login and Registration
-
-How to process data and insert records into the database*/

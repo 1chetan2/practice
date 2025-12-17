@@ -1,0 +1,21 @@
+﻿@model firstProgram.Models.Student
+
+<h2>Edit Student</h2>
+
+<form asp-action="Edit" method="post">
+    <input type="hidden" asp-for="Id" />
+
+    <label>Name</label>
+    <input asp-for="StudentName" /><br />
+
+    <label>Email</label>
+    <input asp-for="Email" /><br />
+
+    <label>Course</label>
+    <input asp-for="Course" /><br />
+
+    <label>Date</label>
+    <input asp-for="EnrollmentDate" type="date" /><br />
+
+    <button type="submit">Update</button>
+</form>

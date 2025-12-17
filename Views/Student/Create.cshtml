@@ -1,0 +1,28 @@
+﻿@model firstProgram.Models.Student
+
+<h2>Add Student</h2>
+
+<form asp-action="Create" method="post">
+
+    <label>Name</label>
+    <input asp-for="StudentName" />
+    <span asp-validation-for="StudentName"></span>
+    <br />
+
+    <label>Email</label>
+    <input asp-for="Email" />
+    <span asp-validation-for="Email"></span>
+    <br />
+
+    <label>Course</label>
+    <input asp-for="Course" />
+    <span asp-validation-for="Course"></span>
+    <br />
+
+    <label>Date</label>
+    <input asp-for="EnrollmentDate" type="date" />
+    <span asp-validation-for="EnrollmentDate"></span>
+    <br />
+
+    <button type="submit">Save</button>
+</form>

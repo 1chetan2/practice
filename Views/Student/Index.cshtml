@@ -1,0 +1,36 @@
+﻿@model IEnumerable<firstProgram.Models.Student>
+
+<h2>Student List</h2>
+
+<a class="btn btn-success" asp-action="Create">Add New Student</a>
+
+
+<table  class="table table-striped border-3">
+    <tr>
+        <h2>Welcome @ViewBag.UserName</h2>
+        <p>@ViewBag.UserEmail</p>
+
+    </tr>
+
+    <tr>
+        <th>Name</th>
+        <th>Email</th>
+        <th>Course</th>
+        <th>Date</th>
+        <th>Action</th>
+    </tr>
+
+    @foreach (var s in Model)
+    {
+        <tr>
+            <td>@s.StudentName</td>
+            <td>@s.Email</td>
+            <td>@s.Course</td>
+            <td>@s.EnrollmentDate.ToShortDateString()</td>
+            <td>
+                <a asp-action="Edit" class="btn btn-primary" asp-route-id="@s.Id">Edit</a> |
+                <a asp-action="Delete" class="btn btn-warning" asp-route-id="@s.Id">Delete</a>
+            </td>
+        </tr>
+    }
+</table>
