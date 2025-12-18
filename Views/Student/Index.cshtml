@@ -41,10 +41,10 @@
     <ul class="pagination justify-content-center">
 
         <li class="page-item @(Model.HasPreviousPage ? "" : "disabled")">
-            <a 
+            <a class="page-link"
                asp-action="Index"
                asp-route-page="@(Model.PageIndex - 1)">
-                Previous
+                Prev
             </a>
         </li>
 
@@ -57,7 +57,7 @@
         }
 
         <li class="page-item @(Model.HasNextPage ? "" : "disabled")">
-            <a
+            <a class="page-link"
                asp-action="Index"
                asp-route-page="@(Model.PageIndex + 1)">
                 Next
