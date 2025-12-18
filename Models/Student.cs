@@ -23,7 +23,7 @@ namespace firstProgram.Models
 
         [Display(Name = "Course")]
         [Required(ErrorMessage = "Course is required")]
-        [RegularExpression("^(BCA|MCA|BTECH)$",
+        [RegularExpression("^(BCA|MCA|BTECH|bca|mca|btech)$",
         ErrorMessage = "Only BCA, MCA or BTECH are allowed")]
         public string Course { get; set; }
 

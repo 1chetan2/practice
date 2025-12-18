@@ -1,21 +1,41 @@
 ﻿@model firstProgram.Models.Student
 
 <h2>Edit Student</h2>
+<style>
+    .color {
+        color: red;
+    }
 
-<form asp-action="Edit" method="post">
+    .box {
+        height: 300px;
+        width: 400px;
+    }
+</style>
+
+<form asp-action="Edit" method="post" class="box">
     <input type="hidden" asp-for="Id" />
 
+
     <label>Name</label>
-    <input asp-for="StudentName" /><br />
+    <input asp-for="StudentName" class="form-control    " />
+    <span asp-validation-for="StudentName" class="color"></span>
+    <br />
 
     <label>Email</label>
-    <input asp-for="Email" /><br />
+    <input asp-for="Email" class="form-control" />
+    <span asp-validation-for="Email" class="color"></span>
+    <br />
 
     <label>Course</label>
-    <input asp-for="Course" /><br />
+    <input asp-for="Course" class="form-control " />
+    <span asp-validation-for="Course" class="color"></span>
+    <br />
 
     <label>Date</label>
-    <input asp-for="EnrollmentDate" type="date" /><br />
+    <input asp-for="EnrollmentDate" type="date" class="form-control " />
+    <span asp-validation-for="EnrollmentDate" class="color"></span>
+    <br />
 
-    <button type="submit">Update</button>
+    <button type="submit" class="btn btn-success">Save</button>
+
 </form>
