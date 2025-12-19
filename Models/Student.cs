@@ -4,6 +4,7 @@ namespace firstProgram.Models
 {
     public class Student
     {
+
         [Key]
         public int Id { get; set; }
 
@@ -12,7 +13,6 @@ namespace firstProgram.Models
         [StringLength(50, MinimumLength = 3,
         ErrorMessage = "Name must be between 3 and 50 characters")]
         public string StudentName { get; set; }
-
 
 
         [Display(Name = "Email Address")]
@@ -26,6 +26,7 @@ namespace firstProgram.Models
         [RegularExpression("^(BCA|MCA|BTECH|bca|mca|btech)$",
         ErrorMessage = "Only BCA, MCA or BTECH are allowed")]
         public string Course { get; set; }
+
 
         [DataType(DataType.Date)]
         [Required]

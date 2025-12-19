@@ -15,42 +15,77 @@ namespace firstProgram.Controllers
             _context = context;
         }
 
-        // ================= LIST WITH PAGINATION =================
-        public IActionResult Index(int page = 1)
+        public IActionResult Index( int page = 1, string searchString = "", string sortColumn = "Id",string sortOrder = "asc")
         {
-            string email = HttpContext.Session.GetString("UserEmail");
-            string name = HttpContext.Session.GetString("UserName");
-
-            if (email == null)
-            {
+            // session
+            if (HttpContext.Session.GetString("UserEmail") == null)
                 return RedirectToAction("Login", "Register");
+
+            ViewBag.UserEmail = HttpContext.Session.GetString("UserEmail");
+            ViewBag.UserName = HttpContext.Session.GetString("UserName");
+
+            // data pass on view
+            ViewBag.CurrentFilter = searchString;
+            ViewBag.SortColumn = sortColumn;
+            ViewBag.SortOrder = sortOrder;
+
+            IQueryable<Student> query = _context.Students.AsNoTracking();
+
+            // search
+            if (!string.IsNullOrEmpty(searchString))
+            {
+                query = query.Where(s =>
+                    s.StudentName.Contains(searchString) ||
+                    s.Email.Contains(searchString) ||
+                    s.Course.Contains(searchString));
             }
 
-            ViewBag.UserEmail = email;
-            ViewBag.UserName = name;
+            // sorting
+            switch (sortColumn)
+            {
+                case "StudentName":
+                    query = sortOrder == "asc"?
+                         query.OrderBy(s => s.StudentName) : query.OrderByDescending(s => s.StudentName);
+                    break;
 
-            int pageSize = 2;
+                case "Email":
+                    query = sortOrder == "asc" ?
+                         query.OrderBy(s => s.Email) : query.OrderByDescending(s => s.Email);
+                    break;
 
-            var query = _context.Students
-                                .AsNoTracking()
-                                .OrderBy(s => s.Id);
+                case "Course":
+                    query = sortOrder == "asc"?
+                         query.OrderBy(s => s.Course)  : query.OrderByDescending(s => s.Course);
+                    break;
 
+                case "EnrollmentDate":
+                    query = sortOrder == "asc" ?
+                         query.OrderBy(s => s.EnrollmentDate) : query.OrderByDescending(s => s.EnrollmentDate);
+                    break;
+
+                default:
+                    query = sortOrder == "asc" ?
+                         query.OrderBy(s => s.Id)  : query.OrderByDescending(s => s.Id);
+                    break;
+            }
+
+            // pagination
+           // int pageSize = 4;
             int totalCount = query.Count();
 
-            var students = query
-                .Skip((page - 1) * pageSize)
-                .Take(pageSize)
-                .ToList();
+            var students = query.Skip((page - 1) * pageSize).Take(pageSize).ToList();
 
-            var model = new PaginatedList<Student>(students,totalCount,page,pageSize);
+            var model = new PaginatedList<Student>(students,totalCount,page,pageSize,sortColumn,sortOrder);
 
             return View(model);
         }
 
-        // ================= CREATE =================
-        public IActionResult Create()
-        {
-            return View();
+        //************************** crud ********************************
+
+        //insert
+        public IActionResult Create() 
+        { 
+            return View(); 
         }
 
         [HttpPost]
@@ -65,12 +100,11 @@ namespace firstProgram.Controllers
             return View(student);
         }
 
-        // ================= EDIT =================
+        //update
         public IActionResult Edit(int id)
         {
             var student = _context.Students.Find(id);
-            if (student == null)
-                return NotFound();
+            if (student == null) return NotFound();
             return View(student);
         }
 
@@ -86,12 +120,11 @@ namespace firstProgram.Controllers
             return View(student);
         }
 
-        // ================= DELETE =================
+        //delete
         public IActionResult Delete(int id)
         {
             var student = _context.Students.Find(id);
-            if (student == null)
-                return NotFound();
+            if (student == null) return NotFound();
             return View(student);
         }
 
