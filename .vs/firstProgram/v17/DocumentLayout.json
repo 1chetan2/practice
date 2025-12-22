@@ -3,6 +3,14 @@
   "WorkspaceRootPath": "C:\\Asp.net_task\\firstProgram\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{5FC63678-B17E-4176-A3DC-0042ACFD5118}|firstProgram.csproj|c:\\asp.net_task\\firstprogram\\views\\register\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5FC63678-B17E-4176-A3DC-0042ACFD5118}|firstProgram.csproj|solutionrelative:views\\register\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5FC63678-B17E-4176-A3DC-0042ACFD5118}|firstProgram.csproj|c:\\asp.net_task\\firstprogram\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5FC63678-B17E-4176-A3DC-0042ACFD5118}|firstProgram.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{5FC63678-B17E-4176-A3DC-0042ACFD5118}|firstProgram.csproj|c:\\asp.net_task\\firstprogram\\views\\student\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{5FC63678-B17E-4176-A3DC-0042ACFD5118}|firstProgram.csproj|solutionrelative:views\\student\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
@@ -30,7 +38,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -46,65 +54,91 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 0,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Asp.net_task\\firstProgram\\Views\\Register\\Login.cshtml",
+              "RelativeDocumentMoniker": "Views\\Register\\Login.cshtml",
+              "ToolTip": "C:\\Asp.net_task\\firstProgram\\Views\\Register\\Login.cshtml",
+              "RelativeToolTip": "Views\\Register\\Login.cshtml",
+              "ViewState": "AgIAAEgAAAAAAAAAAAAAAFUAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-22T11:23:39.206Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Asp.net_task\\firstProgram\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Asp.net_task\\firstProgram\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-22T11:15:09.525Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "Edit.cshtml",
               "DocumentMoniker": "C:\\Asp.net_task\\firstProgram\\Views\\Student\\Edit.cshtml",
               "RelativeDocumentMoniker": "Views\\Student\\Edit.cshtml",
               "ToolTip": "C:\\Asp.net_task\\firstProgram\\Views\\Student\\Edit.cshtml",
               "RelativeToolTip": "Views\\Student\\Edit.cshtml",
-              "ViewState": "AgIAABIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACIAAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-12-19T12:46:37.457Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "PaginatedList.cs",
               "DocumentMoniker": "C:\\Asp.net_task\\firstProgram\\ViewModel\\PaginatedList.cs",
               "RelativeDocumentMoniker": "ViewModel\\PaginatedList.cs",
               "ToolTip": "C:\\Asp.net_task\\firstProgram\\ViewModel\\PaginatedList.cs",
               "RelativeToolTip": "ViewModel\\PaginatedList.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAA1AAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-19T06:26:07.496Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "Student.cs",
               "DocumentMoniker": "C:\\Asp.net_task\\firstProgram\\Models\\Student.cs",
               "RelativeDocumentMoniker": "Models\\Student.cs",
               "ToolTip": "C:\\Asp.net_task\\firstProgram\\Models\\Student.cs",
               "RelativeToolTip": "Models\\Student.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAA9AAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAA2AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-19T04:54:03.52Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "StudentController.cs",
               "DocumentMoniker": "C:\\Asp.net_task\\firstProgram\\Controllers\\StudentController.cs",
               "RelativeDocumentMoniker": "Controllers\\StudentController.cs",
               "ToolTip": "C:\\Asp.net_task\\firstProgram\\Controllers\\StudentController.cs",
               "RelativeToolTip": "Controllers\\StudentController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAvAAAAAAAAAA==",
+              "ViewState": "AgIAAE4AAAAAAAAAAAAowDgAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-12-17T05:03:56.037Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Asp.net_task\\firstProgram\\Views\\Student\\Index.cshtml",
               "RelativeDocumentMoniker": "Views\\Student\\Index.cshtml",
               "ToolTip": "C:\\Asp.net_task\\firstProgram\\Views\\Student\\Index.cshtml",
               "RelativeToolTip": "Views\\Student\\Index.cshtml",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAAABwAAABjAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACYAAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-12-19T04:54:08.811Z",
               "EditorCaption": ""

@@ -34,50 +34,52 @@ namespace firstProgram.Controllers
             // search
             if (!string.IsNullOrEmpty(searchString))
             {
-                query = query.Where(s =>
-                    s.StudentName.Contains(searchString) ||
-                    s.Email.Contains(searchString) ||
-                    s.Course.Contains(searchString));
+                    query = query.Where(s =>
+                    s.StudentName.Contains(searchString) || s.Email.Contains(searchString) || s.Course.Contains(searchString));
             }
 
             // sorting
             switch (sortColumn)
             {
-                case "StudentName":
-                    query = sortOrder == "asc"?
+                case "StudentName":  
+                    query = sortOrder == "asc" ?
                          query.OrderBy(s => s.StudentName) : query.OrderByDescending(s => s.StudentName);
                     break;
 
-                case "Email":
+                case "Email":  
                     query = sortOrder == "asc" ?
                          query.OrderBy(s => s.Email) : query.OrderByDescending(s => s.Email);
                     break;
-
-                case "Course":
-                    query = sortOrder == "asc"?
-                         query.OrderBy(s => s.Course)  : query.OrderByDescending(s => s.Course);
-                    break;
+                      
+                case "Course":  
+                    query = sortOrder == "asc" ?
+                         query.OrderBy(s => s.Course)  :  query.OrderByDescending(s => s.Course);
+                    break;  
 
                 case "EnrollmentDate":
                     query = sortOrder == "asc" ?
-                         query.OrderBy(s => s.EnrollmentDate) : query.OrderByDescending(s => s.EnrollmentDate);
+                         query.OrderBy(s => s.EnrollmentDate)  :  query.OrderByDescending(s => s.EnrollmentDate);
                     break;
 
-                default:
-                    query = sortOrder == "asc" ?
-                         query.OrderBy(s => s.Id)  : query.OrderByDescending(s => s.Id);
+                default:   
+                    query = sortOrder == "asc" ? 
+                         query.OrderBy(s => s.Id)  :  query.OrderByDescending(s => s.Id);
                     break;
+
             }
 
             // pagination
-           // int pageSize = 4;
+
+            int pageSize = 3;
+
             int totalCount = query.Count();
-
+                                                        
             var students = query.Skip((page - 1) * pageSize).Take(pageSize).ToList();
-
-            var model = new PaginatedList<Student>(students,totalCount,page,pageSize,sortColumn,sortOrder);
-
+                                                                                            
+            var model = new PaginatedList<Student>(students,totalCount,page,pageSize,sortColumn,sortOrder);    
+                                           
             return View(model);
+
         }
 
         //************************** crud ********************************

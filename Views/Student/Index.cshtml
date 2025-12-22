@@ -12,27 +12,28 @@
                    class="form-control"
                    placeholder="Search..." />
         </div>
-@* 
+
         <div class="col-md-3">
             <select name="sortColumn" class="form-control">
-                <option value="Id">Sort By</option>
+                <option value="Id">Sort By</option>               
                 <option value="StudentName" selected="@(ViewBag.SortColumn == "StudentName")">Student Name</option>
                 <option value="Email" selected="@(ViewBag.SortColumn == "Email")">Email</option>
                 <option value="Course" selected="@(ViewBag.SortColumn == "Course")">Course</option>
                 <option value="EnrollmentDate" selected="@(ViewBag.SortColumn == "EnrollmentDate")">Enrollment Date</option>
             </select>
-        </div> *@
+        </div> 
 
         <div class="col-md-2">
             <select name="sortOrder" class="form-control">
-                <option value="asc" selected="@(ViewBag.SortOrder == "asc")">Ascending Order</option>
-                <option value="desc" selected="@(ViewBag.SortOrder == "desc")">Descending Order</option>
+                <option value="asc" selected="@(ViewBag.SortOrder == "asc")">Ascending Order</option> 
+                <option value="desc" selected="@(ViewBag.SortOrder == "desc")">Descending Order</option> 
             </select>
         </div>
-
-        <div class="col-md-2">
+                
+        <div class="col-md-3">
             <button class="btn btn-primary">Apply</button>
             <a asp-action="Index" class="btn btn-secondary">Reset</a>
+            <a href="/Student/Create/"  class="btn btn-success">Add Data</a>
         </div>
 
     </div>
@@ -40,6 +41,7 @@
 
 <table class="table table-striped">
     <tr>
+        
         <th>Name</th>
         <th>Email</th>
         <th>Course</th>
@@ -50,12 +52,15 @@
     @foreach (var s in Model.Items)
     {
         <tr>
+
+         
             <td>@s.StudentName</td>
             <td>@s.Email</td>
             <td>@s.Course</td>
             <td>@s.EnrollmentDate.ToShortDateString()</td>
            <td> <a asp-action="Edit" asp-route-id="@s.Id" class="btn btn-primary btn-sm">Edit</a>
            <a asp-action="Delete" asp-route-id="@s.Id" class="btn btn-warning btn-sm">Delete</a></td>
+
         </tr>
     }
 </table>
@@ -96,4 +101,5 @@
             Next
         </a>
     </li>
+
 </ul>
