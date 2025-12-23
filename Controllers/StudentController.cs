@@ -15,7 +15,7 @@ namespace firstProgram.Controllers
             _context = context;
         }
 
-        public IActionResult Index( int page = 1, string searchString = "", string sortColumn = "Id",string sortOrder = "asc")
+        public IActionResult Index( int page = 1, int pageSize = 4, string searchString = "", string sortColumn = "Id",string sortOrder = "asc")
         {
             // session
             if (HttpContext.Session.GetString("UserEmail") == null)
@@ -69,9 +69,7 @@ namespace firstProgram.Controllers
             }
 
             // pagination
-
-            int pageSize = 3;
-
+              
             int totalCount = query.Count();
                                                         
             var students = query.Skip((page - 1) * pageSize).Take(pageSize).ToList();
@@ -80,6 +78,54 @@ namespace firstProgram.Controllers
                                            
             return View(model);
 
+        }
+        // for lazy loading
+        public IActionResult LoadMore(
+            int page=1,
+            int pageSize=4,
+            string searchString = "",
+            string sortColumn = "Id",
+            string sortOrder = "asc")
+        {
+            IQueryable<Student> query = _context.Students.AsNoTracking();
+
+            if (!string.IsNullOrEmpty(searchString))
+            {
+                query = query.Where(s =>
+                    s.StudentName.Contains(searchString) ||
+                    s.Email.Contains(searchString) ||
+                    s.Course.Contains(searchString));
+            }
+
+            query = sortColumn switch
+            {
+                "StudentName" => sortOrder == "asc"
+                    ? query.OrderBy(s => s.StudentName)
+                    : query.OrderByDescending(s => s.StudentName),
+
+                "Email" => sortOrder == "asc"
+                    ? query.OrderBy(s => s.Email)
+                    : query.OrderByDescending(s => s.Email),
+
+                "Course" => sortOrder == "asc"
+                    ? query.OrderBy(s => s.Course)
+                    : query.OrderByDescending(s => s.Course),
+
+                "EnrollmentDate" => sortOrder == "asc"
+                    ? query.OrderBy(s => s.EnrollmentDate)
+                    : query.OrderByDescending(s => s.EnrollmentDate),
+
+                _ => sortOrder == "asc"
+                    ? query.OrderBy(s => s.Id)
+                    : query.OrderByDescending(s => s.Id)
+            };
+
+            var students = query
+                .Skip((page - 1) * pageSize)
+                .Take(pageSize)
+                .ToList();
+
+            return PartialView("_StudentRows", students); 
         }
 
         //************************** crud ********************************
@@ -138,5 +184,7 @@ namespace firstProgram.Controllers
             _context.SaveChanges();
             return RedirectToAction(nameof(Index));
         }
+
+
     }
 }

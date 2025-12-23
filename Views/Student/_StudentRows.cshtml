@@ -1,0 +1,15 @@
+﻿@model List<firstProgram.Models.Student>
+
+@foreach (var s in Model)
+{
+    <tr>
+        <td>@s.StudentName</td>
+        <td>@s.Email</td>
+        <td>@s.Course</td>
+        <td>@s.EnrollmentDate.ToShortDateString()</td>
+        <td>
+            <a asp-action="Edit" asp-route-id="@s.Id" class="btn btn-sm btn-primary">Edit</a>
+            <a asp-action="Delete" asp-route-id="@s.Id" class="btn btn-sm btn-warning">Delete</a>
+        </td>
+    </tr>
+}
