@@ -32,10 +32,15 @@ app.UseRouting();
 app.UseSession();  // Session must be enabled here
 app.UseAuthorization();
 
-// Default route
+
 app.MapControllerRoute(
     name: "default",
     pattern: "{controller=Register}/{action=Login}/{id?}"
 );
 
+//app.MapControllerRoute(
+//    name: "ProductsRoute",
+//    pattern: "our-products/{action=Details}/{Id?}",
+//    defaults:new{Controller="Products"}
+//);
 app.Run();

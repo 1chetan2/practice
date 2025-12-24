@@ -38,6 +38,14 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmVlZGJhY2tcU3VjY2Vzcy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Asp.net_task/firstProgram/Views/FeesDetail/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmVlc0RldGFpbFxEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Asp.net_task/firstProgram/Views/FeesDetail/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmVlc0RldGFpbFxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Asp.net_task/firstProgram/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
