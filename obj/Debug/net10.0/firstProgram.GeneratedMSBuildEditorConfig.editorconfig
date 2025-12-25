@@ -38,8 +38,8 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmVlZGJhY2tcU3VjY2Vzcy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Asp.net_task/firstProgram/Views/FeesDetail/Details.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmVlc0RldGFpbFxEZXRhaWxzLmNzaHRtbA==
+[C:/Asp.net_task/firstProgram/Views/FeesDetail/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRmVlc0RldGFpbFxDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Asp.net_task/firstProgram/Views/FeesDetail/Index.cshtml]
@@ -72,6 +72,18 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Asp.net_task/firstProgram/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Asp.net_task/firstProgram/Views/StudentData/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3R1ZGVudERhdGFcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Asp.net_task/firstProgram/Views/StudentData/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3R1ZGVudERhdGFcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Asp.net_task/firstProgram/Views/StudentData/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3R1ZGVudERhdGFcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Asp.net_task/firstProgram/Views/Student/Create.cshtml]

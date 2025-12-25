@@ -6,21 +6,19 @@ using System.Linq;
 
 namespace firstProgram.Controllers
 {
-    [Route("FeesDetailRoute")]
     public class FeesDetailController : Controller
     {
-        private readonly AppDbContext _db;
+        private readonly AppDbContext _context;
 
-        public FeesDetailController(AppDbContext db)
+        public FeesDetailController(AppDbContext context)
         {
-            _db = db;
+            _context = context;
         }
 
-        // GET: /FeesDetail
-        [Route("Index")]
+        //display page
         public IActionResult Index()
         {
-            var list = _db.FeesDetails
+            var data = _context.FeesDetails
                 .Select(f => new FeesDetailDto
                 {
                     Id = f.Id,
@@ -29,36 +27,37 @@ namespace firstProgram.Controllers
                 })
                 .ToList();
 
-            return View(list);
+            //return Ok(data);
+            return View(data);
+            
         }
 
-        [Route("")]
-        [Route("Details")]
-        public IActionResult Details()
+        // get Create
+        public IActionResult Create()
         {
             return View();
-
         }
-        // GET: /FeesDetail/Details/5
-        [Route("Details/{id}")]
-        public IActionResult Details(int id)
-        {
-            var fdetail = _db.FeesDetails
-                .Where(f => f.Id == id)
-                .Select(f => new FeesDetailDto
-                {
-                    Id = f.Id,
-                    Name = f.Name,
-                    Amount = f.Amount
-                })
-                .FirstOrDefault();
 
-            if (fdetail == null)
+        // post Create Form
+        [HttpPost]
+        public IActionResult Create(FeesDetailDto dto)
+        {
+            if (ModelState.IsValid)
             {
-                return NotFound();
+                var fees = new FeesDetail
+                {
+                    Name = dto.Name,
+                    Amount = dto.Amount,
+                    Gst = ""  
+                };
+
+                _context.FeesDetails.Add(fees);
+                _context.SaveChanges();
+
+                return RedirectToAction(nameof(Index));
             }
 
-            return View(fdetail);
+            return View(dto);
         }
     }
 }

@@ -12,8 +12,10 @@ namespace firstprogram.Data
         }
         public DbSet<Register> Registers { get; set; }
         public DbSet<Feedback> Feedbacks { get; set; }
+
         public DbSet<Student> Students { get; set; }
         public DbSet<FeesDetail> FeesDetails { get; set; }
+
     }
 }
 

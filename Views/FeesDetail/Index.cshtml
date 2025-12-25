@@ -1,17 +1,14 @@
-﻿@model List<firstProgram.ViewModel.FeesDetailDto>
+﻿@model IEnumerable<firstProgram.ViewModel.FeesDetailDto>
 
-@{
-    ViewBag.Title = "Fees List";
-}
+<h2>Fees Details</h2>
 
-<h2>Fees List</h2>
+<a asp-action="Create" class="btn btn-success ">Add New</a> 
 
 <table class="table table-bordered">
     <thead>
         <tr>
             <th>Name</th>
             <th>Amount</th>
-           
         </tr>
     </thead>
     <tbody>
@@ -20,14 +17,7 @@
             <tr>
                 <td>@item.Name</td>
                 <td>@item.Amount</td>
-                <td>
-                    <a asp-action="Details" asp-route-id="@item.Id" class="btn btn-primary">View</a>
-                </td>
             </tr>
         }
-        <tr><td>
-            @* <a href="/FeesDetail/Details/" class="form-control">add</a> *@
-        </td></tr>
     </tbody>
-    
 </table>

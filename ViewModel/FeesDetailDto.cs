@@ -5,6 +5,6 @@
         public int Id { get; set; }      
         public string Name { get; set; }
         public int Amount { get; set; }
-        // Gst is intentionally excluded → sensitive
+        // Gst is intentionally because it is sensitive
     }
 }

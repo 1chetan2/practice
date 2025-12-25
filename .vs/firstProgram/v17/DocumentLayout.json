@@ -3,20 +3,24 @@
   "WorkspaceRootPath": "C:\\Asp.net_task\\firstProgram\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{5FC63678-B17E-4176-A3DC-0042ACFD5118}|firstProgram.csproj|c:\\asp.net_task\\firstprogram\\views\\feesdetail\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{5FC63678-B17E-4176-A3DC-0042ACFD5118}|firstProgram.csproj|solutionrelative:views\\feesdetail\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{5FC63678-B17E-4176-A3DC-0042ACFD5118}|firstProgram.csproj|c:\\asp.net_task\\firstprogram\\controllers\\studentdatacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5FC63678-B17E-4176-A3DC-0042ACFD5118}|firstProgram.csproj|solutionrelative:controllers\\studentdatacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5FC63678-B17E-4176-A3DC-0042ACFD5118}|firstProgram.csproj|c:\\asp.net_task\\firstprogram\\controllers\\feesdetailcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5FC63678-B17E-4176-A3DC-0042ACFD5118}|firstProgram.csproj|solutionrelative:controllers\\feesdetailcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5FC63678-B17E-4176-A3DC-0042ACFD5118}|firstProgram.csproj|c:\\asp.net_task\\firstprogram\\views\\studentdata\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5FC63678-B17E-4176-A3DC-0042ACFD5118}|firstProgram.csproj|solutionrelative:views\\studentdata\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5FC63678-B17E-4176-A3DC-0042ACFD5118}|firstProgram.csproj|c:\\asp.net_task\\firstprogram\\views\\feesdetail\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{5FC63678-B17E-4176-A3DC-0042ACFD5118}|firstProgram.csproj|solutionrelative:views\\feesdetail\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{5FC63678-B17E-4176-A3DC-0042ACFD5118}|firstProgram.csproj|c:\\asp.net_task\\firstprogram\\models\\studentdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5FC63678-B17E-4176-A3DC-0042ACFD5118}|firstProgram.csproj|solutionrelative:models\\studentdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5FC63678-B17E-4176-A3DC-0042ACFD5118}|firstProgram.csproj|c:\\asp.net_task\\firstprogram\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5FC63678-B17E-4176-A3DC-0042ACFD5118}|firstProgram.csproj|solutionrelative:data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5FC63678-B17E-4176-A3DC-0042ACFD5118}|firstProgram.csproj|c:\\asp.net_task\\firstprogram\\views\\studentdata\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5FC63678-B17E-4176-A3DC-0042ACFD5118}|firstProgram.csproj|solutionrelative:views\\studentdata\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5FC63678-B17E-4176-A3DC-0042ACFD5118}|firstProgram.csproj|c:\\asp.net_task\\firstprogram\\views\\studentdata\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5FC63678-B17E-4176-A3DC-0042ACFD5118}|firstProgram.csproj|solutionrelative:views\\studentdata\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,47 +30,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 6,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Asp.net_task\\firstProgram\\Views\\FeesDetail\\Index.cshtml",
-              "RelativeDocumentMoniker": "Views\\FeesDetail\\Index.cshtml",
-              "ToolTip": "C:\\Asp.net_task\\firstProgram\\Views\\FeesDetail\\Index.cshtml",
-              "RelativeToolTip": "Views\\FeesDetail\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAbAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-12-24T12:25:16.97Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Details.cshtml",
-              "DocumentMoniker": "C:\\Asp.net_task\\firstProgram\\Views\\FeesDetail\\Details.cshtml",
-              "RelativeDocumentMoniker": "Views\\FeesDetail\\Details.cshtml",
-              "ToolTip": "C:\\Asp.net_task\\firstProgram\\Views\\FeesDetail\\Details.cshtml",
-              "RelativeToolTip": "Views\\FeesDetail\\Details.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAGAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-12-24T11:51:36.874Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "AppDbContext.cs",
-              "DocumentMoniker": "C:\\Asp.net_task\\firstProgram\\Data\\AppDbContext.cs",
-              "RelativeDocumentMoniker": "Data\\AppDbContext.cs",
-              "ToolTip": "C:\\Asp.net_task\\firstProgram\\Data\\AppDbContext.cs",
-              "RelativeToolTip": "Data\\AppDbContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAA6AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-24T11:27:49.953Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Bookmark",
               "Name": "ST:131:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
@@ -81,15 +46,67 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Asp.net_task\\firstProgram\\Views\\StudentData\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Views\\StudentData\\Edit.cshtml",
+              "ToolTip": "C:\\Asp.net_task\\firstProgram\\Views\\StudentData\\Edit.cshtml",
+              "RelativeToolTip": "Views\\StudentData\\Edit.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-25T08:20:25.406Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Asp.net_task\\firstProgram\\Views\\StudentData\\Create.cshtml",
+              "RelativeDocumentMoniker": "Views\\StudentData\\Create.cshtml",
+              "ToolTip": "C:\\Asp.net_task\\firstProgram\\Views\\StudentData\\Create.cshtml",
+              "RelativeToolTip": "Views\\StudentData\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-25T07:52:17.246Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "FeesDetailController.cs",
-              "DocumentMoniker": "C:\\Asp.net_task\\firstProgram\\Controllers\\FeesDetailController.cs",
-              "RelativeDocumentMoniker": "Controllers\\FeesDetailController.cs",
-              "ToolTip": "C:\\Asp.net_task\\firstProgram\\Controllers\\FeesDetailController.cs",
-              "RelativeToolTip": "Controllers\\FeesDetailController.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAACIAAAAQAAAAAAAAAA==",
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Asp.net_task\\firstProgram\\Views\\StudentData\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\StudentData\\Index.cshtml",
+              "ToolTip": "C:\\Asp.net_task\\firstProgram\\Views\\StudentData\\Index.cshtml",
+              "RelativeToolTip": "Views\\StudentData\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAABHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-12-25T07:51:55.9Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "StudentDataController.cs",
+              "DocumentMoniker": "C:\\Asp.net_task\\firstProgram\\Controllers\\StudentDataController.cs",
+              "RelativeDocumentMoniker": "Controllers\\StudentDataController.cs",
+              "ToolTip": "C:\\Asp.net_task\\firstProgram\\Controllers\\StudentDataController.cs",
+              "RelativeToolTip": "Controllers\\StudentDataController.cs",
+              "ViewState": "AgIAACAAAAAAAAAAAAAUwDUAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-24T11:28:49.23Z",
+              "WhenOpened": "2025-12-25T07:49:31.564Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "StudentData.cs",
+              "DocumentMoniker": "C:\\Asp.net_task\\firstProgram\\Models\\StudentData.cs",
+              "RelativeDocumentMoniker": "Models\\StudentData.cs",
+              "ToolTip": "C:\\Asp.net_task\\firstProgram\\Models\\StudentData.cs",
+              "RelativeToolTip": "Models\\StudentData.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-25T07:46:11.846Z",
               "EditorCaption": ""
             }
           ]

@@ -33,9 +33,14 @@ app.UseSession();  // Session must be enabled here
 app.UseAuthorization();
 
 
+//app.MapControllerRoute(
+//    name: "default",
+//    pattern: "{controller=Register}/{action=Login}/{id?}"
+//);
+
 app.MapControllerRoute(
     name: "default",
-    pattern: "{controller=Register}/{action=Login}/{id?}"
+    pattern: "{controller=FeesDetail}/{action=Create}/{id?}"
 );
 
 //app.MapControllerRoute(
