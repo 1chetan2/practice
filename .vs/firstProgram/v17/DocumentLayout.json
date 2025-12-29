@@ -3,24 +3,24 @@
   "WorkspaceRootPath": "C:\\Asp.net_task\\firstProgram\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{5FC63678-B17E-4176-A3DC-0042ACFD5118}|firstProgram.csproj|c:\\asp.net_task\\firstprogram\\controllers\\studentdatacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5FC63678-B17E-4176-A3DC-0042ACFD5118}|firstProgram.csproj|solutionrelative:controllers\\studentdatacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5FC63678-B17E-4176-A3DC-0042ACFD5118}|firstProgram.csproj|c:\\asp.net_task\\firstprogram\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5FC63678-B17E-4176-A3DC-0042ACFD5118}|firstProgram.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5FC63678-B17E-4176-A3DC-0042ACFD5118}|firstProgram.csproj|c:\\asp.net_task\\firstprogram\\views\\studentdata\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{5FC63678-B17E-4176-A3DC-0042ACFD5118}|firstProgram.csproj|solutionrelative:views\\studentdata\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{5FC63678-B17E-4176-A3DC-0042ACFD5118}|firstProgram.csproj|c:\\asp.net_task\\firstprogram\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5FC63678-B17E-4176-A3DC-0042ACFD5118}|firstProgram.csproj|solutionrelative:controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5FC63678-B17E-4176-A3DC-0042ACFD5118}|firstProgram.csproj|c:\\asp.net_task\\firstprogram\\models\\studentdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5FC63678-B17E-4176-A3DC-0042ACFD5118}|firstProgram.csproj|solutionrelative:models\\studentdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5FC63678-B17E-4176-A3DC-0042ACFD5118}|firstProgram.csproj|c:\\asp.net_task\\firstprogram\\services\\studentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5FC63678-B17E-4176-A3DC-0042ACFD5118}|firstProgram.csproj|solutionrelative:services\\studentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5FC63678-B17E-4176-A3DC-0042ACFD5118}|firstProgram.csproj|c:\\asp.net_task\\firstprogram\\views\\studentdata\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{5FC63678-B17E-4176-A3DC-0042ACFD5118}|firstProgram.csproj|solutionrelative:views\\studentdata\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{5FC63678-B17E-4176-A3DC-0042ACFD5118}|firstProgram.csproj|c:\\asp.net_task\\firstprogram\\services\\istudentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5FC63678-B17E-4176-A3DC-0042ACFD5118}|firstProgram.csproj|solutionrelative:services\\istudentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5FC63678-B17E-4176-A3DC-0042ACFD5118}|firstProgram.csproj|c:\\asp.net_task\\firstprogram\\views\\studentdata\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{5FC63678-B17E-4176-A3DC-0042ACFD5118}|firstProgram.csproj|solutionrelative:views\\studentdata\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{5FC63678-B17E-4176-A3DC-0042ACFD5118}|firstProgram.csproj|c:\\asp.net_task\\firstprogram\\models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5FC63678-B17E-4176-A3DC-0042ACFD5118}|firstProgram.csproj|solutionrelative:models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,7 +30,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
@@ -46,68 +46,67 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Edit.cshtml",
-              "DocumentMoniker": "C:\\Asp.net_task\\firstProgram\\Views\\StudentData\\Edit.cshtml",
-              "RelativeDocumentMoniker": "Views\\StudentData\\Edit.cshtml",
-              "ToolTip": "C:\\Asp.net_task\\firstProgram\\Views\\StudentData\\Edit.cshtml",
-              "RelativeToolTip": "Views\\StudentData\\Edit.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAQAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-12-25T08:20:25.406Z",
+              "DocumentIndex": 2,
+              "Title": "StudentService.cs",
+              "DocumentMoniker": "C:\\Asp.net_task\\firstProgram\\Services\\StudentService.cs",
+              "RelativeDocumentMoniker": "Services\\StudentService.cs",
+              "ToolTip": "C:\\Asp.net_task\\firstProgram\\Services\\StudentService.cs",
+              "RelativeToolTip": "Services\\StudentService.cs",
+              "ViewState": "AgIAAEQAAAAAAAAAAAAwwHYAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-29T10:15:29.142Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "Create.cshtml",
-              "DocumentMoniker": "C:\\Asp.net_task\\firstProgram\\Views\\StudentData\\Create.cshtml",
-              "RelativeDocumentMoniker": "Views\\StudentData\\Create.cshtml",
-              "ToolTip": "C:\\Asp.net_task\\firstProgram\\Views\\StudentData\\Create.cshtml",
-              "RelativeToolTip": "Views\\StudentData\\Create.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-12-25T07:52:17.246Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Asp.net_task\\firstProgram\\Views\\StudentData\\Index.cshtml",
-              "RelativeDocumentMoniker": "Views\\StudentData\\Index.cshtml",
-              "ToolTip": "C:\\Asp.net_task\\firstProgram\\Views\\StudentData\\Index.cshtml",
-              "RelativeToolTip": "Views\\StudentData\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAABHAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-12-25T07:51:55.9Z",
+              "Title": "IStudentService.cs",
+              "DocumentMoniker": "C:\\Asp.net_task\\firstProgram\\Services\\IStudentService.cs",
+              "RelativeDocumentMoniker": "Services\\IStudentService.cs",
+              "ToolTip": "C:\\Asp.net_task\\firstProgram\\Services\\IStudentService.cs",
+              "RelativeToolTip": "Services\\IStudentService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-29T10:14:41.01Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "StudentDataController.cs",
-              "DocumentMoniker": "C:\\Asp.net_task\\firstProgram\\Controllers\\StudentDataController.cs",
-              "RelativeDocumentMoniker": "Controllers\\StudentDataController.cs",
-              "ToolTip": "C:\\Asp.net_task\\firstProgram\\Controllers\\StudentDataController.cs",
-              "RelativeToolTip": "Controllers\\StudentDataController.cs",
-              "ViewState": "AgIAACAAAAAAAAAAAAAUwDUAAAAdAAAAAAAAAA==",
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Asp.net_task\\firstProgram\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Asp.net_task\\firstProgram\\Program.cs*",
+              "RelativeToolTip": "Program.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-25T07:49:31.564Z",
+              "WhenOpened": "2025-12-29T10:09:33.218Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "StudentData.cs",
-              "DocumentMoniker": "C:\\Asp.net_task\\firstProgram\\Models\\StudentData.cs",
-              "RelativeDocumentMoniker": "Models\\StudentData.cs",
-              "ToolTip": "C:\\Asp.net_task\\firstProgram\\Models\\StudentData.cs",
-              "RelativeToolTip": "Models\\StudentData.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "StudentController.cs",
+              "DocumentMoniker": "C:\\Asp.net_task\\firstProgram\\Controllers\\StudentController.cs",
+              "RelativeDocumentMoniker": "Controllers\\StudentController.cs",
+              "ToolTip": "C:\\Asp.net_task\\firstProgram\\Controllers\\StudentController.cs",
+              "RelativeToolTip": "Controllers\\StudentController.cs",
+              "ViewState": "AgIAAMEAAAAAAAAAAAAswL8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-12-25T07:46:11.846Z",
+              "WhenOpened": "2025-12-29T09:38:28.908Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Student.cs",
+              "DocumentMoniker": "C:\\Asp.net_task\\firstProgram\\Models\\Student.cs",
+              "RelativeDocumentMoniker": "Models\\Student.cs",
+              "ToolTip": "C:\\Asp.net_task\\firstProgram\\Models\\Student.cs",
+              "RelativeToolTip": "Models\\Student.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-29T07:51:37.933Z"
             }
           ]
         }
